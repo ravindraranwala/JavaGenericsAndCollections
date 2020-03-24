@@ -14,7 +14,7 @@ public class Lists {
 		List<String> words2 = Lists.toList2("hello", "world");
 		System.out.println(words2);
 		
-		List<Integer> ints3 = new ArrayList<Integer>();
+		List<Integer> ints3 = new ArrayList<>();
 		Lists.addAll(ints3, 1, 2);
 		Lists.addAll(ints3, new Integer[] { 3, 4 });
 		assert ints3.toString().equals("[1, 2, 3, 4]");
@@ -24,14 +24,14 @@ public class Lists {
 	}
 
 	public static <T> List<T> toList(T[] arr) {
-		List<T> list = new ArrayList<T>();
+		List<T> list = new ArrayList<>();
 		for (T elt : arr)
 			list.add(elt);
 		return list;
 	}
 
 	public static <T> List<T> toList2(T... arr) {
-		List<T> list = new ArrayList<T>();
+		List<T> list = new ArrayList<>();
 		for (T elt : arr)
 			list.add(elt);
 		return list;

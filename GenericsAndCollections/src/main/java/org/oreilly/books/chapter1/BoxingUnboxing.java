@@ -7,12 +7,12 @@ import java.util.List;
 public class BoxingUnboxing {
 
 	public static void main(String[] args) {
-		List<Integer> ints = new ArrayList<Integer>();
+		List<Integer> ints = new ArrayList<>();
 		ints.add(1);
 		int n = ints.get(0);
 
 		// The above is equivalent to this.
-		List<Integer> ints2 = new ArrayList<Integer>();
+		List<Integer> ints2 = new ArrayList<>();
 		ints2.add(Integer.valueOf(1));
 		int n2 = ints2.get(0).intValue();
 
