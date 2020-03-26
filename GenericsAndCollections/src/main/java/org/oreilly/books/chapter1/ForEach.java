@@ -3,7 +3,7 @@ package org.oreilly.books.chapter1;
 import java.util.Iterator;
 import java.util.List;
 
-public class ForEach {
+public final class ForEach {
 
 	public static void main(String[] args) {
 

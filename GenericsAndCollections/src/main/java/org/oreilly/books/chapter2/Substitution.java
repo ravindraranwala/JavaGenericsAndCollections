@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Substitution {
+public final class Substitution {
 
 	public static void main(String[] args) {
 		List<Number> nums = new ArrayList<>();

@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
-public class PECS {
+public final class PECS {
 
 	public static void main(String[] args) {
 		// Use of extends wildcard.

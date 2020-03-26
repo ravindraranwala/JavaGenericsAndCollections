@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class WildcardsExtends {
+public final class WildcardsExtends {
 
 	public static void main(String[] args) {
 		// with extends

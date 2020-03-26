@@ -3,7 +3,7 @@ package org.oreilly.books.chapter1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Lists {
+public final class Lists {
 
 	public static void main(String[] args) {
 		List<Integer> ints = Lists.toList(new Integer[] { 1, 2, 3 });

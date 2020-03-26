@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class WildcardsSuper {
+public final class WildcardsSuper {
 
 	public static void main(String[] args) {
 		List<Object> objs = Arrays.<Object>asList(2, 3.14, "four");
