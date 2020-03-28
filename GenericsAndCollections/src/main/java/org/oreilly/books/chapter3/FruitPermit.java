@@ -9,17 +9,17 @@ public final class FruitPermit {
 		List<Apple> apples = Arrays.asList(new Apple(1), new Apple(10));
 		List<Orange> oranges = Arrays.asList(new Orange(1), new Orange(10));
 		List<Fruit> fruits = Arrays.<Fruit>asList(new Apple(1), new Orange(10));
-		assert Maximum.max4(apples).equals(new Apple(10));
-		assert Maximum.max4(oranges).equals(new Orange(10));
-		assert Maximum.max4(fruits).equals(new Orange(10)); // ok
-		System.out.println(Maximum.max4(apples));
-		System.out.println(Maximum.max4(oranges));
-		System.out.println(Maximum.max4(fruits));
+		assert Comparisons.max4(apples).equals(new Apple(10));
+		assert Comparisons.max4(oranges).equals(new Orange(10));
+		assert Comparisons.max4(fruits).equals(new Orange(10)); // ok
+		System.out.println(Comparisons.max4(apples));
+		System.out.println(Comparisons.max4(oranges));
+		System.out.println(Comparisons.max4(fruits));
 		Apple weeApple = new Apple(1);
 		Apple bigApple = new Apple(2);
 		apples = Arrays.asList(weeApple, bigApple);
 		System.out.println(weeApple.compareTo(bigApple));
-		System.out.println(Maximum.max4(apples) == bigApple);
+		System.out.println(Comparisons.max4(apples) == bigApple);
 	}
 
 	static class Fruit implements Comparable<Fruit> {

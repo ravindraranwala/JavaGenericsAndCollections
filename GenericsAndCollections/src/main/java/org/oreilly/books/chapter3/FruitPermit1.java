@@ -11,12 +11,12 @@ public final class FruitPermit1 {
 		Orange o3 = new Orange(3);
 		Orange o4 = new Orange(4);
 		List<Apple> apples = Arrays.asList(a1, a2);
-		assert Maximum.max4(apples).equals(a2);
+		assert Comparisons.max4(apples).equals(a2);
 		List<Orange> oranges = Arrays.asList(o3, o4);
-		assert Maximum.max4(oranges).equals(o4);
+		assert Comparisons.max4(oranges).equals(o4);
 
 		List<Fruit> mixed = Arrays.<Fruit>asList(a1, o3);
-		assert Maximum.max4(mixed).equals(o3); // ok
+		assert Comparisons.max4(mixed).equals(o3); // ok
 	}
 
 	static abstract class Fruit implements Comparable<Fruit> {

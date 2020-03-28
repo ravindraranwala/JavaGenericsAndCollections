@@ -9,11 +9,11 @@ public final class FruitProhibit {
 		List<Apple> apples = Arrays.<Apple>asList(new Apple(1), new Apple(10));
 		List<Orange> oranges = Arrays.<Orange>asList(new Orange(1), new Orange(10));
 		List<Fruit> fruits = Arrays.<Fruit>asList(new Apple(1), new Orange(10));
-		assert Maximum.max(apples).equals(new Apple(10));
-		assert Maximum.max(oranges).equals(new Orange(10));
+		assert Comparisons.max(apples).equals(new Apple(10));
+		assert Comparisons.max(oranges).equals(new Orange(10));
 		// assert Maximum.max(fruits).equals(new Orange(10)); // compile-time error
-		System.out.println(Maximum.max(apples));
-		System.out.println(Maximum.max(oranges));
+		System.out.println(Comparisons.max(apples));
+		System.out.println(Comparisons.max(oranges));
 	}
 
 	static class Fruit {

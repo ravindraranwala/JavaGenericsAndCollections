@@ -9,9 +9,9 @@ public final class FruitProhibit1 {
 		Apple a1 = new Apple(1); Apple a2 = new Apple(2);
 		Orange o3 = new Orange(3); Orange o4 = new Orange(4);
 		List<Apple> apples = Arrays.asList(a1,a2);
-		assert Maximum.max4(apples).equals(a2);
+		assert Comparisons.max4(apples).equals(a2);
 		List<Orange> oranges = Arrays.asList(o3,o4);
-		assert Maximum.max4(oranges).equals(o4);
+		assert Comparisons.max4(oranges).equals(o4);
 		
 		List<Fruit> mixed = Arrays.<Fruit>asList(a1,o3);
 		// assert Maximum.max4(mixed).equals(o3); // compile-time error

@@ -2,10 +2,14 @@ package org.oreilly.books.chapter3;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
-public class Maximum {
+public final class Comparisons {
+	private Comparisons() {
+		throw new AssertionError("Non instantiable !");
+	}
 
 	public static void main(String[] args) {
 		List<Integer> ints = Arrays.asList(0, 1, 2);
@@ -46,6 +50,16 @@ public class Maximum {
 			T elt = it.next();
 			if (candidate.compareTo(elt) < 0)
 				candidate = elt;
+		}
+		return candidate;
+	}
+
+	public static <T> T max(Collection<? extends T> coll, Comparator<? super T> cmp) {
+		T candidate = coll.iterator().next();
+		for (T elt : coll) {
+			if (cmp.compare(candidate, elt) < 0) {
+				candidate = elt;
+			}
 		}
 		return candidate;
 	}
