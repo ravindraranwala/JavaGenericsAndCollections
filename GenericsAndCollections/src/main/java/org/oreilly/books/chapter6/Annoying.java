@@ -12,7 +12,7 @@ public class Annoying {
 //			a[i++] = x;
 //		return a;
 //	}
-//
+
 //	public static List<Integer>[] twoLists() {
 //		List<Integer> a = Arrays.asList(1, 2, 3);
 //		List<Integer> b = Arrays.asList(4, 5, 6);
