@@ -37,7 +37,7 @@ public class ListStrings {
 			@Override
 			public ListString subList(int fromIndex, int toIndex) {
 				// recursively applying wrap to the delegated call.
-				return ListStrings.wrap(list.subList(fromIndex, toIndex));
+				return wrap(list.subList(fromIndex, toIndex));
 			}
 		}
 
