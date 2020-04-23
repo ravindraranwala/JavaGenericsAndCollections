@@ -1,6 +1,7 @@
 package org.oreilly.books.chapter9.interpreter;
 
 public class Interpreter {
+	// Terminal expression.
 	static Exp<Integer> lit(final int i) {
 		return new Exp<Integer>() {
 			public Integer eval() {
