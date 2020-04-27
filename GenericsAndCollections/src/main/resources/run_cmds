@@ -1,0 +1,2 @@
+Ch 09 - Observer stub compile command: javac -d . src/main/java/java/util/Observable.java src/main/java/java/util/Observer.java src/main/java/org/oreilly/books/chapter9/observer/*.java
+Ch 09 - Observer stub run command: java org.oreilly.books.chapter9.observer.Converter
