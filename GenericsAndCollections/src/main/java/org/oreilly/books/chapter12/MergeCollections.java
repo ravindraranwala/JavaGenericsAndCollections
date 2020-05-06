@@ -1,10 +1,11 @@
-package org.oreilly.books.chapter11;
+package org.oreilly.books.chapter12;
+
+import static org.oreilly.books.chapter12.StaticTestData.*;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
-import static org.oreilly.books.chapter11.StaticTestData.*;
 
 public class MergeCollections {
 	static <T extends Comparable<? super T>> List<T> merge(Collection<? extends T> c1, Collection<? extends T> c2) {

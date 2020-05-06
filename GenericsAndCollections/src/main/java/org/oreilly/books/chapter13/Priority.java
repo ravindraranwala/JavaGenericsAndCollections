@@ -1,4 +1,4 @@
-package org.oreilly.books.chapter12;
+package org.oreilly.books.chapter13;
 
 public enum Priority {
 	HIGH, MEDIUM, LOW

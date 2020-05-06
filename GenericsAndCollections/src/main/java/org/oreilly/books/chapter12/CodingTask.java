@@ -1,4 +1,4 @@
-package org.oreilly.books.chapter11;
+package org.oreilly.books.chapter12;
 
 public final class CodingTask extends Task {
 	private final String spec;

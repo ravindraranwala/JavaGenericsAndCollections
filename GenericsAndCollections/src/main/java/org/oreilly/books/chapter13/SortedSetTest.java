@@ -1,20 +1,20 @@
-package org.oreilly.books.chapter12;
+package org.oreilly.books.chapter13;
 
-import static org.oreilly.books.chapter11.StaticTestData.databaseCode;
-import static org.oreilly.books.chapter11.StaticTestData.interfaceCode;
-import static org.oreilly.books.chapter11.StaticTestData.logicCode;
-import static org.oreilly.books.chapter11.StaticTestData.mikePhone;
-import static org.oreilly.books.chapter11.StaticTestData.mondayTasks;
-import static org.oreilly.books.chapter11.StaticTestData.paulPhone;
-import static org.oreilly.books.chapter11.StaticTestData.tuesdayTasks;
+import static org.oreilly.books.chapter12.StaticTestData.databaseCode;
+import static org.oreilly.books.chapter12.StaticTestData.interfaceCode;
+import static org.oreilly.books.chapter12.StaticTestData.logicCode;
+import static org.oreilly.books.chapter12.StaticTestData.mikePhone;
+import static org.oreilly.books.chapter12.StaticTestData.mondayTasks;
+import static org.oreilly.books.chapter12.StaticTestData.paulPhone;
+import static org.oreilly.books.chapter12.StaticTestData.tuesdayTasks;
 
 import java.util.NavigableSet;
 import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-import org.oreilly.books.chapter11.EmptyTask;
-import org.oreilly.books.chapter11.Task;
+import org.oreilly.books.chapter12.EmptyTask;
+import org.oreilly.books.chapter12.Task;
 
 public class SortedSetTest {
 	public static void main(String[] args) {

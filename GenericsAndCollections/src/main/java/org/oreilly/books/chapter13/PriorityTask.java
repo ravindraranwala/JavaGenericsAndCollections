@@ -1,6 +1,6 @@
-package org.oreilly.books.chapter12;
+package org.oreilly.books.chapter13;
 
-import org.oreilly.books.chapter11.Task;
+import org.oreilly.books.chapter12.Task;
 
 public class PriorityTask implements Comparable<PriorityTask> {
 	private final Task task;

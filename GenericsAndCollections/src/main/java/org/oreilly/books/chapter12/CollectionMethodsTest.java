@@ -1,6 +1,6 @@
-package org.oreilly.books.chapter11;
+package org.oreilly.books.chapter12;
 
-import static org.oreilly.books.chapter11.StaticTestData.*;
+import static org.oreilly.books.chapter12.StaticTestData.*;
 
 import java.util.ArrayList;
 import java.util.Collection;
