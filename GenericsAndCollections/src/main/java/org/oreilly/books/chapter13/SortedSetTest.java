@@ -1,12 +1,6 @@
 package org.oreilly.books.chapter13;
 
-import static org.oreilly.books.chapter12.StaticTestData.databaseCode;
-import static org.oreilly.books.chapter12.StaticTestData.interfaceCode;
-import static org.oreilly.books.chapter12.StaticTestData.logicCode;
-import static org.oreilly.books.chapter12.StaticTestData.mikePhone;
-import static org.oreilly.books.chapter12.StaticTestData.mondayTasks;
-import static org.oreilly.books.chapter12.StaticTestData.paulPhone;
-import static org.oreilly.books.chapter12.StaticTestData.tuesdayTasks;
+import static org.oreilly.books.chapter12.StaticTestData.*;
 
 import java.util.NavigableSet;
 import java.util.Set;
