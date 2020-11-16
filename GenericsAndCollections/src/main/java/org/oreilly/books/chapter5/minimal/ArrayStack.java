@@ -22,8 +22,7 @@ public class ArrayStack<E> implements Stack<E> {
 
 	@Override
 	public E pop() {
-		Object elt = list.get(list.size() - 1);
-		list.remove(list.size() - 1);
+		Object elt = list.remove(list.size() - 1);
 		return (E) elt; // unchecked cast
 	}
 
