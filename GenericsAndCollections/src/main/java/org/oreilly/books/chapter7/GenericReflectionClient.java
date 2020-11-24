@@ -8,16 +8,18 @@ import java.util.Collection;
 public class GenericReflectionClient {
 
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException {
-		Integer[] ints = new Integer[] { 1, 2 };
-		Number[] nums = ints;
-		Number[] newNums = GenericReflection.newArray(nums, 2);
+		Number[] ints = new Integer[] { 1, 2 };
+		Number[] newNums = GenericReflection.newArray(ints, 2);
 		assert newNums.getClass() == Integer[].class;
 
-		// No such compile time checking is performed. you get the exception at runtime,
+		// No such compile time exception checking is performed. you get the exception at runtime,
 		// even though it is a checked exception. This forces you to catch a generic
 		// exception and handle it where as the other allows you to catch
 		// InvocationTargetException and handle it by accessing the cause nicely.
 		// Dummy.class.newInstance();
+		
+		// Compile time exception checking is performed.
+		// Dummy.class.getConstructor().newInstance(null);
 
 		System.out.println(String.class.getComponentType());
 
