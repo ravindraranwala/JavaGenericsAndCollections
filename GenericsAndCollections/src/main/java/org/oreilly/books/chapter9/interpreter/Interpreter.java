@@ -10,6 +10,7 @@ public class Interpreter {
 		};
 	}
 
+	// Non-terminal expressions.
 	static Exp<Integer> plus(final Exp<Integer> e1, final Exp<Integer> e2) {
 		return new Exp<Integer>() {
 			public Integer eval() {
