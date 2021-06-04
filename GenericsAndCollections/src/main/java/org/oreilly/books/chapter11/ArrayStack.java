@@ -2,7 +2,7 @@ package org.oreilly.books.chapter11;
 
 // Example 11-2. A non-thread-safe stack implementation
 public class ArrayStack implements Stack {
-	private final int MAX_ELEMENTS = 10;
+	private static final int MAX_ELEMENTS = 10;
 	private int[] stack;
 	private int index;
 
