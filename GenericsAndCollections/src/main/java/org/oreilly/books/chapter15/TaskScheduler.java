@@ -11,7 +11,7 @@ import org.oreilly.books.chapter14.StoppableTaskQueue;
 
 public class TaskScheduler {
 	private List<StoppableTaskQueue> schedule;
-	private final int FORWARD_PLANNING_DAYS = 365;
+	private static final int FORWARD_PLANNING_DAYS = 365;
 
 	public TaskScheduler() {
 		List<StoppableTaskQueue> temp = new ArrayList<StoppableTaskQueue>();
