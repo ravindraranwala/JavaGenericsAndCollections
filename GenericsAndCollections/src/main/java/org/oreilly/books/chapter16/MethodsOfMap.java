@@ -30,7 +30,7 @@ public class MethodsOfMap {
 		// populate the lists, for example:
 		taskMap.get(Priority.MEDIUM).add(mikePhone);
 		taskMap.get(Priority.HIGH).add(databaseCode);
-		final Queue<Task> highPriorityTaskLists = taskMap.get(Priority.HIGH);
+		final Queue<Task> highPriorityTaskList = taskMap.get(Priority.HIGH);
 
 		// Handling billable tasks.
 		final Map<Task, Client> billingMap = new HashMap<>();
