@@ -24,9 +24,9 @@ public class MethodsOfMap {
 
 	public static void main(String[] args) {
 		final Map<Priority, Queue<Task>> taskMap = new EnumMap<>(Priority.class);
-		for (Priority p : Priority.values()) {
+		for (Priority p : Priority.values())
 			taskMap.put(p, new ArrayDeque<>());
-		}
+
 		// populate the lists, for example:
 		taskMap.get(Priority.MEDIUM).add(mikePhone);
 		taskMap.get(Priority.HIGH).add(databaseCode);
